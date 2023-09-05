@@ -1,7 +1,3 @@
-!(function(e) {
-  "function" == typeof define && define.amd ? define(e) : e();
-})(function() {
-  "use strict";
   class e {
     on(e, t, i) {
       const r = this.e || (this.e = {});
@@ -141,7 +137,7 @@
       backgroundLoadingShow: !1,
       loadingBackground: "",
       decoder: "./hzPlayer/decoder-pro.js",
-      decoderAudio: "decoder-pro-audio.js",
+      decoderAudio: "./hzPlayer/decoder-pro-audio.js",
       decoderWASM: "",
       isDecoderUseCDN: !1,
       url: "",
@@ -49439,4 +49435,4 @@
     }
   }
   (mn.MULTI_EVENTS = st), (mn.EVENTS = _), (mn.ERROR = b), (window.JessibucaProMulti = mn), (window.WebPlayerProMulti = mn);
-});
+  export default mn;
