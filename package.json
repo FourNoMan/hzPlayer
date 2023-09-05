@@ -1,6 +1,6 @@
 {
   "name": "hz-player",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "## 强大的视频流播放器",
   "main": "src/index.js",
   "scripts": {
